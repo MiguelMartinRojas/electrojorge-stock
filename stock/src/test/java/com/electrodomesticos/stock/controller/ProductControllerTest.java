@@ -33,7 +33,7 @@ public class ProductControllerTest {
     private ProductRepository productRepository;
 
     @Autowired
-    private ObjectMapper objectMapper; // Used to convert objects to JSON
+    private ObjectMapper objectMapper;
 
     @BeforeEach
     public void setUp() {
